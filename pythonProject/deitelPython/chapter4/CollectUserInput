@@ -1,0 +1,13 @@
+name = input("Enter your name: ")
+print('Hello', name)
+print('')
+
+age = eval(input('Enter your age: '))
+print('You are ' + str(age) + ' years old')
+print('')
+
+Id = eval(input("Enter your Id number: "))
+print("your ID number is", Id)
+
+if age > 26:
+    print("You are too old for this position")
